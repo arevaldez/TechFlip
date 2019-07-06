@@ -9,7 +9,7 @@ Howdy! And welcome to my tech and life blog - **_TechFlip_**. This is my first p
 
 <figure>
     <img src="./first-blog.jpg">
-    <figcaption>Photo by Andrew Neel on Unsplash.</figcaption>
+    <figcaption style><br>Photo by Andrew Neel on Unsplash.</figcaption>
 </figure>
 
 ## Why did I start?
