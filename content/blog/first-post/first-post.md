@@ -10,7 +10,8 @@ Howdy! And welcome to my tech and life blog - **_TechFlip_**. This is my first p
     <img src="./first-blog.jpg">
     <figcaption>Photo by Andrew Neel on Unsplash.</figcaption>
 </figure>
- 
+
+
 ## Why did I start?
 
 **A New Challenge.** I spend a lot of time writing code. I currently am a Software Engineer Intern in Austin, Texas. I also am still a student at Texas A&M University (Whoop!). I have noticed that my time within my job or school work is focused on engineering and designing. So, I figured I'd venture into an untapped space for myself.
