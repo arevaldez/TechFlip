@@ -2,6 +2,7 @@
 title: "Why I started a blog"
 date: "2019-07-05"
 description: "Ready, set, blog!"
+readingTime: "text"
 ---
 
 Howdy! And welcome to my tech and life blog - **_TechFlip_**. This is my first post. I decided to start this blog for many reasons. Here's a few.
