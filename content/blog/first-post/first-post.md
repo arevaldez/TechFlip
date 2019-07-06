@@ -28,4 +28,4 @@ Howdy! And welcome to my tech and life blog - **_TechFlip_**. This is my first p
 
 ## Conclusion
 
-I am starting a new blog about all things tech and life. My goal is to learn as much as a I can and enjoy it along the way. I would love for you to join me on this journey
+I am starting a new blog about all things tech and life. My goal is to learn as much as a I can and enjoy it along the way. I would love for you to join me on this journey.
