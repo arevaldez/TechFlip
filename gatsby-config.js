@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `TechFlip`,
     author: `Alex Valdez`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Tech and Life Blog`,
+    siteUrl: `https://techflip.netlify.com`,
     social: {
-      twitter: `kylemathews`,
+      github: `https://github.com/arevaldez`,
     },
   },
   plugins: [
