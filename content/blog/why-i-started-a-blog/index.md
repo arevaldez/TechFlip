@@ -18,7 +18,7 @@ Howdy! And welcome to my tech and life blog - **_TechFlip_**. This is my first p
 
 **Blogs have helped me.** I am an aspiring software engineer, however, I am not obtaining a computer science degree. Most of my coding experience has been learning through tutorials (_where are my todo app people at?_), creating projects for myself, and... blogs. I figured, if blogs can help me, maybe I can help others.
 
-**Accountability.** I have secretly always wanted to start a blog, but constantly created excuses not to. _No one will read it._ _I'm not a good writer._ _I don't have time._ The list goes on and on. So, I decided to make it a public and share it with my friends and family. I know myself. If I tell others, I have a bigger incentive to follow there. So, here I am!
+**Accountability.** I have secretly always wanted to start a blog, but constantly created excuses not to. _No one will read it._ _I'm not a good writer._ _I don't have time._ The list goes on and on. So, I decided to make it public and share it with my friends and family. I know myself. If I tell others, I have a bigger incentive to follow through. So, here I am!
 
 ## What are the benefits?
 
