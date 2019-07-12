@@ -1,0 +1,43 @@
+html {
+  background: #f0f0f1;
+}
+
+body {
+  /* color: rgb(212, 209, 209); */
+  /* --textLink: #d23669; */
+  text-anchor: red;
+}
+a {
+  text-decoration: none !important;
+}
+
+.gatsby-highlight-code-line {
+  background-color: rgb(107, 106, 101);
+  display: block;
+  margin-right: -1.3125rem;
+  margin-left: -1.3125rem;
+  padding-right: 1em;
+  padding-left: 1.25em;
+  border-left: 0.55em solid White;
+}
+
+.gatsby-highlight {
+  /* margin-bottom: 1.75rem; */
+  /* margin-left: -1.3125rem; */
+  /* margin-right: -1.3125rem; */
+  border-radius: 10px;
+  background-color: #011627;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+
+@media (max-width: 672px) {
+  .gatsby-highlight {
+    border-radius: 0;
+  }
+}
+
+.gatsby-highlight pre[class*="language-"] {
+  float: left;
+  min-width: 100%;
+}
