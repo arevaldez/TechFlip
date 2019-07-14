@@ -1,7 +1,7 @@
 ---
 title: "React context API (Part 1) - Passing state to child components made easy"
 date: "2019-07-07"
-description: "Prop drilling? Nope. Redux? Too complex. React context API? Yes. Lets make it simple."
+description: "Prop drilling? Nope. Redux? Too complex. React context API? Yes. Let's make it simple."
 readingTime: "text"
 ---
 
@@ -161,7 +161,7 @@ Within Consumer is `{context => ( ... )}`. Remember the `value=this.state` from 
 
 <br/>
 
-Because _context_ was passed through the consumer and _context_ subscribes to the state of the Parent, we have access to _people_! All we have to do to grab the content is execute **context.people** What is happening here is the Child component is mapping through each item within people. Then it is displaying a sentance using the name and age from each _people_ item.
+Because _context_ was passed through the consumer and _context_ subscribes to the state of the Parent, we have access to _people_! All we have to do to grab the content is execute **context.people** What is happening here is the Child component is mapping through each item within people. Then it is displaying a sentence using the name and age from each _people_ item.
 
 Let me take a little detour real quick to hopefully save you some headaches. Let's look at the Provider one more time.
 
@@ -257,7 +257,7 @@ Okay, finally we can run our app. Here is what it will look like.
 
 <br />
 
-The Child component is the first component that receives the state from the context provider. It then procedes to pass the state down to the Grandchild. As you can see, even the Grandchild component that was wrapped within the Child component has access to the Parent state.
+The Child component is the first component that receives the state from the context provider. It then precedes to pass the state down to the Grandchild. As you can see, even the Grandchild component that was wrapped within the Child component has access to the Parent state.
 
 ## Conclusion
 
