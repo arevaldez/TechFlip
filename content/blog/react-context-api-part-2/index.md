@@ -43,7 +43,7 @@ If you guessed that it toggled a name, you would be correct. It toggles the firs
 
 ## Tutorial
 
-**Create the context**. First, Let's create a Context.js file again that will create the Provider and Consumer that we need.
+**Create the context**. First, let's create a Context.js file again that will create the Provider and Consumer that we need.
 
 ```jsx
 import { createContext } from "react"
@@ -136,7 +136,7 @@ state = {
 
 <br>
 
-The first item is `toggleGrandChild`. This let's us know if the GrandChild compenent is toggled or not. The value starts off as false. Here's the function that changes the state.
+The first item is `toggleGrandChild`. This lets us know if the GrandChild compenent is toggled or not. The value starts off as false. Here's the function that changes the state.
 
 ```jsx
 toggleComponent = () => {
@@ -185,15 +185,14 @@ people: [
 
 ```jsx{8}
 <Provider
-    value={{
-        state: this.state,
-        toggleComponent: this.toggleComponent,
-        switchNameHandler: e => this.switchNameHandler(e)
-    }}
+  value={{
+    state: this.state,
+    toggleComponent: this.toggleComponent,
+    switchNameHandler: e => this.switchNameHandler(e),
+  }}
 >
-    <Child />
+  <Child />
 </Provider>
-);
 ```
 
 <br>
@@ -311,7 +310,7 @@ toggleComponent = () => {
 It toggles the state value of `toggleGrandChild`. Let's look a little bit below the button.
 
 ```jsx
-context.state.toggleGrandChild ?<GrandChild /> : null}
+context.state.toggleGrandChild ? <GrandChild /> : null
 ```
 
 <br>
@@ -390,7 +389,7 @@ There's a lot going on in this component as well. At first glance, it looks pret
 
 <br>
 
-Now, instead of just calling a function to toggle true or false, we're actually passing a value to a function. Let's look back at the `switchNameHandler` that was passed as a value in the Provider of the Parent Componenent.
+Now, instead of just calling a function to toggle true or false, we're actually passing a value to a function. Let's look back at the `switchNameHandler` that was passed as a value in the Provider of the Parent Component.
 
 ```jsx
 value={{
@@ -402,7 +401,7 @@ value={{
 
 <br>
 
-So, we assigned the value `switchNameHandler` to `e => this.switchNameHandler(e)`. This let's us use `context.switchNameHandler({value})` within a context Consumer. Currently, we're passing a name. Let's look at the `switchNameHandler` function again.
+So, we assigned the value `switchNameHandler` to `e => this.switchNameHandler(e)`. This lets us use `context.switchNameHandler({value})` within a context Consumer. Currently, we're passing a name. Let's look at the `switchNameHandler` function again.
 
 ```jsx
 switchNameHandler = newName => {
